@@ -1,0 +1,635 @@
+    1680	[INFO]	XnLog.cpp	165	OpenNI version is 1.0.0 (Build 25)-MacOSX (Jan  7 2011 14:20:18)
+    1715	[INFO]	XnLog.cpp	173	Log system initialized. Console: 1, File: 1, Severity: INFO, Masks: ALL
+    1740	[INFO]	XnLog.cpp	173	Log system initialized. Console: 1, File: 1, Severity: INFO, Masks: ALL
+    3082	[INFO]	XnUSBLinux-x86.cpp	98	USB is initialized.
+ 2893602	[INFO]	XnOpenNI.cpp	1261	Creating node 'Device1' of type Device...
+ 2895620	[INFO]	XnDeviceModule.cpp	431	Module 'Device' configuration was loaded from file.
+ 3190949	[INFO]	XnDeviceSensorIO.cpp	135	Connected to USB device
+ 3190995	[INFO]	XnProperty.cpp	151	Property Device.USBPath was changed to 045e/02ae@38/6.
+ 3202334	[INFO]	XnHostProtocol.cpp	825	Hardware versions: FW=5.1.4 (7) HW=4 Chip=2 Sensor=4 SYS=7
+ 4624296	[INFO]	XnProperty.cpp	151	Property Device.ID was changed to 0.
+ 4624354	[INFO]	XnSensor.cpp	182	Device sensor initialized
+ 4624446	[INFO]	XnOpenNI.cpp	1261	Creating node 'Depth1' of type Depth...
+ 4624481	[INFO]	XnDeviceBase.cpp	1383	Creating stream 'Depth1' of type 'Depth'...
+ 4624497	[INFO]	XnProperty.cpp	74	Setting Device.ReadData to 1...
+ 4624526	[INFO]	XnDeviceSensorIO.cpp	298	Endpoints open
+ 4636681	[INFO]	XnProperty.cpp	151	Property Device.ReadData was changed to 1.
+ 4636774	[INFO]	XnProperty.cpp	101	Device.ReadData was successfully set.
+ 4637096	[INFO]	XnProperty.cpp	151	Property Depth1.Resolution was changed to 0.
+ 4637114	[INFO]	XnProperty.cpp	151	Property Depth1.XRes was changed to 320.
+ 4637127	[INFO]	XnProperty.cpp	151	Property Depth1.YRes was changed to 240.
+ 4637140	[INFO]	XnProperty.cpp	151	Property Depth1.FPS was changed to 30.
+ 4637152	[INFO]	XnProperty.cpp	151	Property Depth1.OutputFormat was changed to 1.
+ 4637164	[INFO]	XnProperty.cpp	151	Property Depth1.BytesPerPixel was changed to 2.
+ 4637176	[INFO]	XnProperty.cpp	151	Property Depth1.RequiredDataSize was changed to 153600.
+ 4637192	[INFO]	XnProperty.cpp	151	Property Depth1.ParamCoeff was changed to 4.
+ 4637243	[INFO]	XnProperty.cpp	151	Property Depth1.ShiftScale was changed to 10.
+ 4650406	[INFO]	XnProperty.cpp	151	Property Depth1.ConstShift was changed to 200.
+ 4650529	[INFO]	XnProperty.cpp	151	Property Depth1.ZPD was changed to 120.
+ 4650613	[INFO]	XnProperty.cpp	151	Property Depth1.ZPPS was changed to 0.104200.
+ 4650627	[INFO]	XnProperty.cpp	151	Property Depth1.LDDIS was changed to 7.500000.
+ 4650717	[INFO]	XnProperty.cpp	151	Property Depth1.Gain was changed to 30.
+ 4650744	[INFO]	XnDeviceBase.cpp	1458	Stream 'Depth1' was initialized.
+ 4650757	[INFO]	XnDeviceBase.cpp	1463	'Depth1' stream was created.
+ 4650914	[INFO]	XnProperty.cpp	74	Setting Depth1.InputFormat to 3...
+ 4650933	[INFO]	XnProperty.cpp	151	Property Depth1.InputFormat was changed to 3.
+ 4650946	[INFO]	XnProperty.cpp	101	Depth1.InputFormat was successfully set.
+ 4651452	[INFO]	XnProperty.cpp	74	Setting Depth1.RegistrationType to 2...
+ 4651468	[INFO]	XnProperty.cpp	151	Property Depth1.RegistrationType was changed to 2.
+ 4651480	[INFO]	XnProperty.cpp	101	Depth1.RegistrationType was successfully set.
+ 4652013	[INFO]	XnDeviceModule.cpp	431	Module 'Depth1' configuration was loaded from file.
+ 4652188	[INFO]	XnProperty.cpp	74	Setting Depth1.FPS to 30...
+ 4652203	[INFO]	XnProperty.cpp	86	Depth1.FPS value did not change.
+ 4652215	[INFO]	XnProperty.cpp	74	Setting Depth1.YRes to 480...
+ 4652229	[INFO]	XnProperty.cpp	151	Property Depth1.Resolution was changed to 1.
+ 4652242	[INFO]	XnProperty.cpp	151	Property Depth1.XRes was changed to 640.
+ 4652326	[INFO]	XnProperty.cpp	151	Property Depth1.RequiredDataSize was changed to 307200.
+ 4652342	[INFO]	XnProperty.cpp	151	Property Depth1.YRes was changed to 480.
+ 4652354	[INFO]	XnProperty.cpp	151	Property Depth1.RequiredDataSize was changed to 614400.
+ 4652367	[INFO]	XnProperty.cpp	101	Depth1.YRes was successfully set.
+ 4652380	[INFO]	XnProperty.cpp	74	Setting Depth1.XRes to 640...
+ 4652391	[INFO]	XnProperty.cpp	86	Depth1.XRes value did not change.
+ 4652430	[INFO]	XnProperty.cpp	74	Setting Depth1.Mirror to 1...
+ 4652444	[INFO]	XnProperty.cpp	151	Property Depth1.FirmwareMirror was changed to 1.
+ 4652487	[INFO]	XnProperty.cpp	151	Property Depth1.Mirror was changed to 1.
+ 4652499	[INFO]	XnProperty.cpp	101	Depth1.Mirror was successfully set.
+ 6828310	[INFO]	XnOpenNI.cpp	1261	Creating node 'User1' of type User...
+ 6896150	[WARNING]	Linux-x86Threads.cpp	173	Failed to set thread priority: Invalid argument
+ 6896264	[WARNING]	XnUSBLinux-x86.cpp	126	USB events thread: Failed to set thread priority to critical. This might cause loss of data...
+ 6897493	[INFO]	XnUSBLinux-x86.cpp	1222	USB read thread was started.
+ 6897530	[INFO]	XnProperty.cpp	151	Property Depth1.ActualReadData was changed to 1.
+ 7405684	[INFO]	XnProperty.cpp	151	Property Depth1.State was changed to 1.
+ 7405722	[INFO]	XnDeviceBase.cpp	370	Stream Depth1 is open.
+ 7469020	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 471728 (!= 614400)
+ 7469173	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+ 8470941	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+ 8486278	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+ 8486852	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+ 8604297	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 16624 (!= 614400)
+ 8604338	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+ 9632296	[INFO]	XnOpenNI.cpp	1261	Creating node 'Image1' of type Image...
+ 9632390	[INFO]	XnDeviceBase.cpp	1383	Creating stream 'Image1' of type 'Image'...
+ 9632577	[INFO]	XnProperty.cpp	151	Property Image1.Resolution was changed to 0.
+ 9632593	[INFO]	XnProperty.cpp	151	Property Image1.XRes was changed to 320.
+ 9632606	[INFO]	XnProperty.cpp	151	Property Image1.YRes was changed to 240.
+ 9632619	[INFO]	XnProperty.cpp	151	Property Image1.FPS was changed to 30.
+ 9632631	[INFO]	XnProperty.cpp	151	Property Image1.OutputFormat was changed to 5.
+ 9632643	[INFO]	XnProperty.cpp	151	Property Image1.BytesPerPixel was changed to 3.
+ 9632655	[INFO]	XnProperty.cpp	151	Property Image1.RequiredDataSize was changed to 230400.
+ 9632683	[INFO]	XnDeviceBase.cpp	1458	Stream 'Image1' was initialized.
+ 9632696	[INFO]	XnDeviceBase.cpp	1463	'Image1' stream was created.
+ 9632798	[INFO]	XnProperty.cpp	74	Setting Image1.InputFormat to 6...
+ 9632816	[INFO]	XnProperty.cpp	151	Property Image1.InputFormat was changed to 6.
+ 9632828	[INFO]	XnProperty.cpp	101	Image1.InputFormat was successfully set.
+ 9633408	[INFO]	XnDeviceModule.cpp	431	Module 'Image1' configuration was loaded from file.
+ 9633492	[INFO]	XnProperty.cpp	74	Setting Image1.FPS to 30...
+ 9633506	[INFO]	XnProperty.cpp	86	Image1.FPS value did not change.
+ 9633518	[INFO]	XnProperty.cpp	74	Setting Image1.YRes to 480...
+ 9633531	[INFO]	XnProperty.cpp	151	Property Image1.Resolution was changed to 1.
+ 9633543	[INFO]	XnProperty.cpp	151	Property Image1.XRes was changed to 640.
+ 9633555	[INFO]	XnProperty.cpp	151	Property Image1.RequiredDataSize was changed to 460800.
+ 9633569	[INFO]	XnProperty.cpp	151	Property Image1.YRes was changed to 480.
+ 9633581	[INFO]	XnProperty.cpp	151	Property Image1.RequiredDataSize was changed to 921600.
+ 9633593	[INFO]	XnProperty.cpp	101	Image1.YRes was successfully set.
+ 9633605	[INFO]	XnProperty.cpp	74	Setting Image1.XRes to 640...
+ 9633616	[INFO]	XnProperty.cpp	86	Image1.XRes value did not change.
+ 9634615	[INFO]	XnUSBLinux-x86.cpp	1222	USB read thread was started.
+ 9634647	[INFO]	XnProperty.cpp	151	Property Image1.ActualReadData was changed to 1.
+ 9705569	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 596752 (!= 614400)
+ 9705952	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+ 9813412	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 589696 (!= 614400)
+ 9819865	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+ 9842835	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 591968 (!= 614400)
+ 9842968	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+12709291	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 588032 (!= 614400)
+12710006	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+12836149	[INFO]	XnProperty.cpp	151	Property Image1.State was changed to 1.
+12836188	[INFO]	XnDeviceBase.cpp	370	Stream Image1 is open.
+12836363	[INFO]	XnProperty.cpp	74	Setting Depth1.Registration to 1...
+12997334	[INFO]	XnProperty.cpp	151	Property Depth1.Registration was changed to 1.
+12997371	[INFO]	XnProperty.cpp	101	Depth1.Registration was successfully set.
+12997413	[INFO]	XnProperty.cpp	74	Setting Image1.Mirror to 1...
+13009568	[INFO]	XnProperty.cpp	151	Property Image1.FirmwareMirror was changed to 1.
+13009647	[INFO]	XnProperty.cpp	151	Property Image1.Mirror was changed to 1.
+13009661	[INFO]	XnProperty.cpp	101	Image1.Mirror was successfully set.
+13659798	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 419536 (!= 614400)
+13659892	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+13954490	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 481104 (!= 614400)
+13954642	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+13955682	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 541184 (!= 614400)
+13955792	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+13993109	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 500560 (!= 614400)
+13993254	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+14067456	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 9: Asynch transfer failed (status: 1)
+14118712	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 7: Asynch transfer failed (status: 1)
+14119181	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 441040 (!= 614400)
+14119220	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+14130145	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4253)!!!
+14145173	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 484416 (!= 614400)
+14153773	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+14547344	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 133488 (!= 614400)
+14547580	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15105493	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 530048 (!= 614400)
+15105637	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15106328	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 320480 (!= 614400)
+15106420	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15169640	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 466544 (!= 614400)
+15169776	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15237258	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 583488 (!= 614400)
+15237412	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15307253	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 143840 (!= 614400)
+15307916	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15445614	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 572512 (!= 614400)
+15445781	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15478842	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 545232 (!= 614400)
+15479000	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15693248	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+15702129	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+15702598	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+15969080	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 0: Asynch transfer failed (status: 1)
+16000468	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 482384 (!= 614400)
+16046013	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+16058988	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+16236519	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+16237658	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+16246470	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 32480 (!= 614400)
+16247240	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+16349326	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 503312 (!= 614400)
+16350104	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+16489153	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+16492440	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+16494124	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+16497421	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4554)!!!
+16762462	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 202608 (!= 614400)
+16762608	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+16827306	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 521488 (!= 614400)
+16828082	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17263729	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 204624 (!= 614400)
+17312212	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17313853	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 221808 (!= 614400)
+17313881	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17347705	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+17347846	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17363825	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+17590751	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 504272 (!= 614400)
+17592011	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17630340	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 381104 (!= 614400)
+17631134	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17736867	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 400080 (!= 614400)
+17737647	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+17751502	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 443504 (!= 614400)
+17751646	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18055859	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4453)!!!
+18058849	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4155)!!!
+18059425	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4155)!!!
+18260745	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 6: Asynch transfer failed (status: 1)
+18293614	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 281376 (!= 614400)
+18293707	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18377630	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 501568 (!= 614400)
+18378535	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18579744	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+18644957	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18646658	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 601104 (!= 614400)
+18647296	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18706939	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+18715766	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18716897	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+18750388	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 423584 (!= 614400)
+18751249	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+18941761	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 7: Asynch transfer failed (status: 1)
+18942012	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 25968 (!= 614400)
+18942096	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+19079947	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 13: Asynch transfer failed (status: 1)
+19081172	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 42608 (!= 614400)
+19081622	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+19082354	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4450)!!!
+19264042	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+19264097	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+19286883	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+20006450	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 267632 (!= 614400)
+20006591	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+20200783	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 282000 (!= 614400)
+20200960	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+20508381	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 578912 (!= 614400)
+20509110	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+20715706	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 116848 (!= 614400)
+20715751	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+21216625	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+21216772	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+21217125	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+21225838	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+21225976	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+21299724	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+21432027	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 461984 (!= 614400)
+21432716	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+21435395	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 4: Asynch transfer failed (status: 1)
+21615055	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 219152 (!= 614400)
+21615206	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+22090541	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 613072 (!= 614400)
+22091246	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+22698747	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 566592 (!= 614400)
+22698906	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+22831870	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 422368 (!= 614400)
+22832020	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+22834917	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 3: Asynch transfer failed (status: 1)
+22998703	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+23041827	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+23042551	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+23043480	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 422096 (!= 614400)
+23043589	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+23120778	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 500144 (!= 614400)
+23120963	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+23147602	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+23147840	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+23152344	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+23302235	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 205376 (!= 614400)
+23302283	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+23632983	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 330608 (!= 614400)
+23633154	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+23767008	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 360928 (!= 614400)
+23767053	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+24082397	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 407040 (!= 614400)
+24083162	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+24094290	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 125936 (!= 614400)
+24095446	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+24389811	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 279936 (!= 614400)
+24390574	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+24533449	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 193232 (!= 614400)
+24533494	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+24817397	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 387584 (!= 614400)
+24817553	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+25227356	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 14: Asynch transfer failed (status: 1)
+25230117	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4453)!!!
+26191612	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 204672 (!= 614400)
+26191790	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+26387093	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 341648 (!= 614400)
+26387137	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+26423987	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+26434017	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+26434796	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+26854343	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 152688 (!= 614400)
+26855185	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+27116465	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 208544 (!= 614400)
+27117291	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+27178307	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 10: Asynch transfer failed (status: 1)
+27478096	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 571616 (!= 614400)
+27478843	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+27492836	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 470080 (!= 614400)
+27493512	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+27959209	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 420832 (!= 614400)
+27961097	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+28191288	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 279360 (!= 614400)
+28191996	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+28439724	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 590976 (!= 614400)
+28440461	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+28592373	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 348960 (!= 614400)
+28593247	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+28653903	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 544368 (!= 614400)
+28654059	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+28953839	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 411424 (!= 614400)
+28954550	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+28968991	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 203488 (!= 614400)
+28969131	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+29361228	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 5: Asynch transfer failed (status: 1)
+29394155	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+29394242	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+29394910	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+29596301	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x434d)!!!
+29841400	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 360288 (!= 614400)
+29841560	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+29930098	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 579520 (!= 614400)
+29930988	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+30418954	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 517088 (!= 614400)
+30420167	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+30581546	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 419792 (!= 614400)
+30581742	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+30814268	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 452192 (!= 614400)
+30815234	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+30816771	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+30817336	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+30888731	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+31156802	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+31157484	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+31282404	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+31325804	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 113008 (!= 614400)
+31326451	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+31524316	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+31525039	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+31545103	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 27248 (!= 614400)
+31545766	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+32029185	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 4: Asynch transfer failed (status: 1)
+32030314	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4554)!!!
+32063386	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 611648 (!= 614400)
+32063426	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+32204883	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 388992 (!= 614400)
+32205042	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+32536912	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 508128 (!= 614400)
+32537657	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+33418252	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 235872 (!= 614400)
+33420205	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+33431238	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 440704 (!= 614400)
+33439645	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+33518119	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x3f54)!!!
+33621203	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 610928 (!= 614400)
+33621349	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+33637562	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 508960 (!= 614400)
+33679938	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+33910168	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 305008 (!= 614400)
+33910878	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+34219973	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+34225324	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+34234902	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+34235987	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 562864 (!= 614400)
+34236021	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+34752613	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+34752777	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+34753205	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+34763833	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 143728 (!= 614400)
+34764445	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+35361163	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 164048 (!= 614400)
+35361774	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+35392326	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 13: Asynch transfer failed (status: 1)
+35475051	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 523488 (!= 614400)
+35476007	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+35518009	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 462960 (!= 614400)
+35518695	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+35804318	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 435568 (!= 614400)
+35804496	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+36104102	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 562432 (!= 614400)
+36108107	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+36508921	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+36509070	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+36509625	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+36538386	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 462880 (!= 614400)
+36538453	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+36727852	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 521216 (!= 614400)
+36728536	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+37141491	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+37142127	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+37142614	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+37444046	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 455232 (!= 614400)
+37444901	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+37470433	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 365168 (!= 614400)
+37470595	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+37701264	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+37701513	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+37701843	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+37835835	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 608496 (!= 614400)
+37836036	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+38018817	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 441264 (!= 614400)
+38018967	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+38039256	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+38039944	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+38040401	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+38405643	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 321184 (!= 614400)
+38406325	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+38853121	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 611888
+38862638	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+38876139	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 611888 (!= 614400)
+38977204	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 460480 (!= 614400)
+38977484	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+39469788	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x404e)!!!
+39531735	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+39534921	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+39535178	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+39719511	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+39719658	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+39725729	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+40038718	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 487376 (!= 614400)
+40038857	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+40091355	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+40091528	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+40091801	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+40185520	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4353)!!!
+40212045	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4353)!!!
+40365887	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 486752 (!= 614400)
+40366551	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+40485141	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+40491180	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+40493127	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+40797750	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 6: Asynch transfer failed (status: 1)
+40870447	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 287632 (!= 614400)
+40871126	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+41340260	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 593824 (!= 614400)
+41340423	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+41634054	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+41634708	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+41639495	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+42036166	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 242960 (!= 614400)
+42036413	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+42040450	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 182992 (!= 614400)
+42040585	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+42377974	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 522832 (!= 614400)
+42442017	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+42473602	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 518768 (!= 614400)
+42474400	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+42677080	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+42677712	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+42678531	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+42846127	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 590176 (!= 614400)
+42846704	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+43119615	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+43120380	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+43121197	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+43289242	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 523472 (!= 614400)
+43289993	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+43290542	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 2: Asynch transfer failed (status: 1)
+43291476	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 259904 (!= 614400)
+43292026	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+43736509	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+43737169	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+43748497	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+44065864	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 497008 (!= 614400)
+44066027	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+44096674	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 299888 (!= 614400)
+44097461	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+44452247	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 542176 (!= 614400)
+44454360	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+44476571	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 522624 (!= 614400)
+44477176	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+44682883	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x434f)!!!
+44716429	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 348336 (!= 614400)
+44717034	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45035294	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 532448 (!= 614400)
+45035768	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45042779	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 8: Asynch transfer failed (status: 1)
+45045431	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 13: Asynch transfer failed (status: 1)
+45046035	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 0 Asynch transfer failed (status: -99)
+45046342	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 1 Asynch transfer failed (status: -99)
+45046375	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 2 Asynch transfer failed (status: -99)
+45046402	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 3 Asynch transfer failed (status: -99)
+45046414	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 4 Asynch transfer failed (status: -99)
+45046425	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 5 Asynch transfer failed (status: -99)
+45046482	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 6 Asynch transfer failed (status: -99)
+45047022	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 7 Asynch transfer failed (status: -99)
+45047469	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 8 Asynch transfer failed (status: -99)
+45048186	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 9 Asynch transfer failed (status: -99)
+45048535	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 10 Asynch transfer failed (status: -99)
+45048551	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 11 Asynch transfer failed (status: -99)
+45048690	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 12 Asynch transfer failed (status: -99)
+45048855	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 13 Asynch transfer failed (status: -99)
+45048869	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 14 Asynch transfer failed (status: -99)
+45048953	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 60032 (!= 614400)
+45049037	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45049055	[WARNING]	XnUSBLinux-x86.cpp	1056	Endpoint 0x81, Buffer 14, packet 15 Asynch transfer failed (status: -99)
+45260179	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 421328 (!= 614400)
+45326900	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45327000	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 9: Asynch transfer failed (status: 1)
+45327051	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 10: Asynch transfer failed (status: 1)
+45327514	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 246944 (!= 614400)
+45327530	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45361510	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 279824 (!= 614400)
+45362174	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45501804	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 585328 (!= 614400)
+45502477	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45513227	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 562480 (!= 614400)
+45513821	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45688747	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 300752 (!= 614400)
+45688894	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45726609	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+45726752	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45726953	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+45853251	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4454)!!!
+45890792	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+45891496	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+45891976	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+46011504	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+46155325	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+46155952	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+46179274	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 319088 (!= 614400)
+46179392	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+46371671	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 337184 (!= 614400)
+46372362	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+46488987	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 10: Asynch transfer failed (status: 1)
+46769088	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 575088 (!= 614400)
+46782986	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+46785090	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 70768 (!= 614400)
+46785644	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+46882624	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 63312 (!= 614400)
+46883414	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+47104108	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 360784 (!= 614400)
+47104266	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+47526682	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 577648 (!= 614400)
+47526832	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+47713458	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+47713641	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+47714015	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+47893520	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 591696 (!= 614400)
+47894351	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+47961300	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 1: Asynch transfer failed (status: 1)
+48106221	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 611888
+48106894	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+48107580	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 611888 (!= 614400)
+48531695	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x434f)!!!
+48532688	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x434f)!!!
+48540529	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 5: Asynch transfer failed (status: 1)
+48636668	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 12: Asynch transfer failed (status: 1)
+48637112	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 219248 (!= 614400)
+48637135	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+48670530	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 380800 (!= 614400)
+48670672	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+48928332	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 486368 (!= 614400)
+48928493	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+49029556	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4152)!!!
+49210534	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 3: Asynch transfer failed (status: 1)
+49248957	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 313472 (!= 614400)
+49249661	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+49512682	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 271328 (!= 614400)
+49513535	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+49591534	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+49592248	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+49714855	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+49751117	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 553328 (!= 614400)
+49751255	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+50035184	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 290928 (!= 614400)
+50035332	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+50294808	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 549536 (!= 614400)
+50294852	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+50314274	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 298560 (!= 614400)
+50314312	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+50461898	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+50462041	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+50462133	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+50946878	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4052)!!!
+50965517	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4052)!!!
+51130891	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 288368 (!= 614400)
+51132033	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51175460	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 522976 (!= 614400)
+51176172	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51217349	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x82, Buffer 6: Asynch transfer failed (status: 1)
+51298100	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+51298278	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51298618	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+51349525	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 263632 (!= 614400)
+51349664	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51703797	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+51704443	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51705264	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+51858165	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+51858902	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51859649	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+51985103	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+51985313	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+51985329	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+52072413	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+52072574	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+52158990	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+52196706	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+52196853	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+52197062	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+52311280	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+52311321	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+52325882	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+52803670	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 551184 (!= 614400)
+52803819	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+52948774	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 500896 (!= 614400)
+52948927	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+52986138	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 611888
+52986843	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+52987333	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 611888 (!= 614400)
+53283293	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+53283445	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+53289297	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+53461244	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4550)!!!
+53483240	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+53483396	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+53483689	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+53510518	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+53511171	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+53520609	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+53730804	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 541312 (!= 614400)
+53731492	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+53732837	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 543088 (!= 614400)
+53733423	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+53789119	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 401344 (!= 614400)
+53789702	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+54122073	[WARNING]	XnFrameStreamProcessor.cpp	140	Depth Frame Buffer overflow! current size: 612768
+54122216	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+54122411	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 612768 (!= 614400)
+54234450	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 522960 (!= 614400)
+54235258	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+54263539	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4152)!!!
+54532090	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 421520 (!= 614400)
+54532775	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+54661596	[WARNING]	XnFirmwareStreams.cpp	324	Unknown packet type (0x4c51)!!!
+54690915	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 441696 (!= 614400)
+54708138	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+54931788	[WARNING]	XnUSBLinux-x86.cpp	1078	Endpoint 0x81, Buffer 10: Asynch transfer failed (status: 1)
+54953182	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 528912 (!= 614400)
+54953326	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+55006938	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 597536 (!= 614400)
+55007088	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+55125494	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 441360 (!= 614400)
+55126533	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+55290517	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 70384 (!= 614400)
+55290668	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+55625130	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 417328 (!= 614400)
+55625296	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+55761925	[INFO]	XnOpenNI.cpp	1459	Destroying node 'User1'
+55762189	[WARNING]	XnDepthProcessor.cpp	133	Read: Depth buffer is corrupt. Size is 218800 (!= 614400)
+55762264	[WARNING]	XnFrameStreamProcessor.cpp	132	Depth frame is corrupt!
+55770302	[INFO]	XnOpenNI.cpp	1459	Destroying node 'Depth1'
+55770405	[INFO]	XnDeviceBase.cpp	1507	Destroying stream 'Depth1'...
+55771877	[INFO]	XnOpenNI.cpp	1459	Destroying node 'Image1'
+55771956	[INFO]	XnDeviceBase.cpp	1507	Destroying stream 'Image1'...
+55773175	[INFO]	XnOpenNI.cpp	1459	Destroying node 'Device1'
